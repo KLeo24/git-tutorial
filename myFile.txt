@@ -7,6 +7,9 @@ Welcome to my Webpage!
 </title>
 
 	<!-- CSS goes here -->
+	<style>
+		
+	</style>
 </head>
 <body>
 </body>
