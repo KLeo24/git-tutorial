@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+Welcome to my Webpage!
+</title>
+
+	<!-- CSS goes here -->
+</head>
+<body>
+</body>
+</html>
