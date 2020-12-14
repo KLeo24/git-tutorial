@@ -19,15 +19,20 @@ CS 187 Final
         
         #top-message{
         	text-align: center;
-        
+        	font-weight: bold;
         }
 
+		.box{
+        	border: 3px solid red;
+            text-align: justify;
+            display: block;
+            padding: 5px;
         	
 	</style>
 </head>
 <body>
 	<header>
-	<h1 style="text-align: center;">
+	<h1 style="text-align: center;text-shadow: 2px 2px 5px blue;">
 		Chronicles of a New CS Student
 	</h1>
     
@@ -35,8 +40,8 @@ CS 187 Final
     </p>
     </header>
 	<div id="image">
-    	<p>
-    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%">
+    	<p class="box">
+    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%" float:left>
         
 </body>
 </html>
