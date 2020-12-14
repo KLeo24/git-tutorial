@@ -10,13 +10,18 @@ CS 187 Final
 	<style>
 		body{
 			background-color: cyan;
+			border: 3px solid black;
+			width: 100%;
 		}
 
 	</style>
 </head>
 <body>
-	<h1>
-		Kenny Philemond
+	<header>
+	<h1 style="text-align: center;">
+		Chronicles of a New CS Student
 	</h1>
+    </header>
+
 </body>
 </html>
