@@ -21,13 +21,20 @@ CS 187 Final
         	text-align: center;
         	font-weight: bold;
         }
-
+        
+        #footer{
+        	text-align: center;
+			font-weight: bold;
+        }    
 		.box{
-        	border: 3px solid red;
+        	border: 5px groove red;
             text-align: justify;
             display: block;
             padding: 5px;
-        	
+        
+        a:hover{
+        	color: white;
+        }    
 	</style>
 </head>
 <body>
@@ -36,12 +43,16 @@ CS 187 Final
 		Chronicles of a New CS Student
 	</h1>
     
-    <p id="top-message">Hello and welcome to the webpage I designed for the final project of my computer science course.<br> <a href="https://www.w3schools.com/default.asp"> Here</a> is my biggest helper in getting through this project.
+    <p id="top-message">Hello and welcome to the webpage I designed for the final project of my computer science course.<br> Below we see a seemingly adept computer programmer with five monitors typing like a maniac.<br> Obviously, I'm nowhere near his level since I just started learning web developing over the past few months and, well, I'm broke.<br> That won't stop me from listing my short list of feats and my aspirations though ;).
     </p>
     </header>
 	<div id="image">
     	<p class="box">
-    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%" float:left>
-        
+    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%">
+ 
+    </p>
+    
+    <div id="footer">
+    	<p><a href="https://www.w3schools.com/default.asp"> Here</a> is my biggest helper in getting through this project.</p>
 </body>
 </html>
