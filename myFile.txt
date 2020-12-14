@@ -10,10 +10,14 @@ CS 187 Final
 	<style>
 		body{
 			background-color: cyan;
+		}
+
+		h1{
 			border: 3px solid black;
 			width: 100%;
 		}
 
+        	
 	</style>
 </head>
 <body>
@@ -22,6 +26,7 @@ CS 187 Final
 		Chronicles of a New CS Student
 	</h1>
     </header>
-
+	<div id="image">
+    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%">
 </body>
 </html>
