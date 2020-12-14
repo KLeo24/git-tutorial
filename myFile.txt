@@ -16,6 +16,11 @@ CS 187 Final
 			border: 3px solid black;
 			width: 100%;
 		}
+        
+        #top-message{
+        	text-align: center;
+        
+        }
 
         	
 	</style>
@@ -25,8 +30,13 @@ CS 187 Final
 	<h1 style="text-align: center;">
 		Chronicles of a New CS Student
 	</h1>
+    
+    <p id="top-message">Hello and welcome to the webpage I designed for the final project of my computer science course.<br> <a href="https://www.w3schools.com/default.asp"> Here</a> is my biggest helper in getting through this project.
+    </p>
     </header>
 	<div id="image">
+    	<p>
     	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%">
+        
 </body>
 </html>
