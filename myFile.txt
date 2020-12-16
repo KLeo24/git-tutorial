@@ -6,53 +6,82 @@
 CS 187 Final
 </title>
 
-	<!-- CSS goes here -->
-	<style>
-		body{
-			background-color: cyan;
-		}
+    <!-- CSS goes here -->
+    <style>
+        body{
+            background-color: cyan;
+        }
 
-		h1{
-			border: 3px solid black;
-			width: 100%;
-		}
+        h1{
+            border: 3px solid black;
+            width: 100%;
+        }
         
         #top-message{
-        	text-align: center;
-        	font-weight: bold;
+            text-align: center;
+            font-weight: bold;
         }
         
         #footer{
-        	text-align: center;
-			font-weight: bold;
+            text-align: center;
+            font-weight: bold;
         }    
-		.box{
-        	border: 5px groove red;
-            text-align: justify;
+        .box{
+            border: 5px groove red;
             display: block;
             padding: 5px;
+            margin: 0px 20px 10px 0px;
+            background-color: blue;
+        }
+        .box2{
+            border: 5px groove red;
+            display: block;
+            padding: 5px;
+            background-color: blue;
+            max-height: 250px;
         }
         a:hover{
-        	color: red;
-        }    
-	</style>
+            color: red;
+        } 
+        img{
+            float:left;
+        }
+        ul li{
+            font-family:sans-serif;
+            color: rgba(255,100,50,1);
+        }
+        h3{
+            text-align: center;
+            color: rgb(0,255,100);
+        }
+    </style>
 </head>
 <body>
-	<header>
-	<h1 style="text-align: center;text-shadow: 2px 2px 5px blue;">
-		Chronicles of a New CS Student
-	</h1>
+    <!--This is the the text above the boxes-->
+    <header>
+    <h1 style="text-align: center;text-shadow: 2px 2px 5px blue;">
+        Chronicles of a New CS Student
+    </h1>
     
     <p id="top-message">Hello and welcome to the webpage I designed for the final project of my computer science course.<br> Below we see a seemingly adept computer programmer with five monitors typing like a maniac.<br> Obviously, I'm nowhere near his level since I just started learning web developing over the past few months and, well, I'm broke.<br> That won't stop me from listing my short list of feats and my aspirations though ;).
     </p>
     </header>
-	<div id="image">
-    	<p class="box">
-    	<img src="https://rb.gy/lx3b9e"alt="guy coding on computer"width="50%">
- 
-    </p>
+    <!--This is where the intro ends and the boxes are introduced-->
+    <div id="image">
+        <a href="#"><img src="https://rb.gy/lx3b9e"alt="guy coding on computer"width="50%"class="box"></a>
+    </div>
+    
+    <div id="list" class="box2">
+        <h3>Feats and Goals</h3>
+        <ul>
+            <li>Completed HTML and CSS courses on FreeCodeCamp in addition to watching/practicing lessons from class</li>
+            <li>Learned how to use GitHub to make remote changes to a repository</li>
+            <li>I will add JavaScript to my skillset to enhance the visuals of my projects
+            <li>I will sharpen my skills and develop my own app one day(DETERMINATION IS KEY)</li>  
+        </ul>
+    </div>
     
     <div id="footer">
-    	<p><a href="https://www.w3schools.com/default.asp"target="_blank"> Here</a> is my biggest helper in getting through this project.</p>
+        <p><a href="https://www.w3schools.com/default.asp"target="_blank">Here</a> is my biggest helper in getting through this project.</p>
 </body>
 </html>
