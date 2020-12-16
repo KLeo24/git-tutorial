@@ -31,9 +31,9 @@ CS 187 Final
             text-align: justify;
             display: block;
             padding: 5px;
-        
+        }
         a:hover{
-        	color: white;
+        	color: red;
         }    
 	</style>
 </head>
@@ -48,11 +48,11 @@ CS 187 Final
     </header>
 	<div id="image">
     	<p class="box">
-    	<img src="https://bit.ly/2LCPZdJ"alt="guy coding on computer"width="50%">
+    	<img src="https://rb.gy/lx3b9e"alt="guy coding on computer"width="50%">
  
     </p>
     
     <div id="footer">
-    	<p><a href="https://www.w3schools.com/default.asp"> Here</a> is my biggest helper in getting through this project.</p>
+    	<p><a href="https://www.w3schools.com/default.asp"target="_blank"> Here</a> is my biggest helper in getting through this project.</p>
 </body>
 </html>
