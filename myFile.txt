@@ -25,10 +25,11 @@ CS 187 Final
             font-size: 25px;
         }
         
-        #footer{
+        #nav{
             text-align: center;
             font-weight: bold;
             font-size: 20px;
+            display: inline;
         }    
         .box{
             border: 5px groove red;
@@ -45,6 +46,10 @@ CS 187 Final
             height: 300px;
             overflow: hidden;
         }
+        .nav-back{
+            list-style-type: none;
+            text-decoration: none;
+    }
         a:hover{
             color: red;
         } 
@@ -52,11 +57,12 @@ CS 187 Final
             float:left;
             height: 300px;
         }
-        ul li{
+        #list{
             font-family:sans-serif;
             color: rgba(255,100,50,1);
-            font-size: 18px;
+            font-size: 17px;
         }
+    
         h3{
             text-align: center;
             color: rgb(0,255,100);
@@ -76,7 +82,7 @@ CS 187 Final
     </header>
     <!--This is where the intro ends and the boxes are introduced-->
     <div id="image">
-        <a href="https://tenor.com/view/work-gif-4298669" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/ppVIu3huozGtDmIcN9jFj2bjycCNx2Y_98dmCzLWbxjxwS_6PGr0qz3BT7vGt8cWprjFKhlGUeYSekKk5D6L3idEBQ"alt="guy coding on computer"width="50%" class="box"></a>
+        <a href="https://tenor.com/view/work-gif-4298669" target="_blank"><img src="http://clipart-library.com/img1/1207136.png"alt="guy coding on computer"width="50%" class="box"></a>
     </div>
     
     <div id="list" class="box2">
@@ -84,14 +90,19 @@ CS 187 Final
         <ul>
             <li>Completed HTML and CSS courses on FreeCodeCamp in addition to watching/practicing lessons from class</li>
             <li>Learned how to insert links, insert images, use div to group elements, labeling elements with the id attribute, make nav bars, HTML/CSS semantics</li>
-            <li>Learned how to use GitHub to make remote changes to a repository</li>
+            <li>Learned how to use GitHub thorugh command prompts to make remote changes to a repository</li>
             <li>I will add JavaScript to my skillset to enhance the visuals of my projects</li>
             <li>I will sharpen my skills and develop my own app one day(DETERMINATION IS KEY)</li>  
         </ul>
     </div>
     
     <!-- navbar goes here -->
-    <div id="footer">
-        <p><a href="https://www.w3schools.com/default.asp"target="_blank">Here</a> is my biggest helper in getting through this project.</p>
+    <div>
+    <ul id="nav" class="nav-back">
+       <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+       <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+       <li><a href="https://github.com/KLeo24" target="_blank">My Github Page</a></li>
+       <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Daily Vibe Check</a></li>
+    </ul>
 </body>
 </html>
