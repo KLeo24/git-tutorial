@@ -28,17 +28,17 @@ CS 187 Final
             font-size: 20px;
             display: inline;
         }  
-    li a{
-        display: block;
-        color: white;
-        text-decoration: none;
-        background-color: black;
-        width: 100%;
-    }  
-    li a:hover{
-        background-color: rgb(255,50,50);
-        color: hsl(255,100%,40%);
-    }
+        li a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            background-color: black;
+            width: 100%;
+        }  
+        li a:hover{
+            background-color: rgb(255,50,50);
+            color: hsl(255,100%,40%);
+        }
         .box{
             border: 5px groove red;
             display: block;
